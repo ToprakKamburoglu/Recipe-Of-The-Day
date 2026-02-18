@@ -162,7 +162,7 @@ recipe_of_the_day/
 *Create, edit, and delete recipes with image upload*
 
 ### Super Admin
-![Recipe Management](screenshots/12.png)
+![Recipe Management](screenshots/11.png)
 *Edit user password with only difference with admin*
 
 ---
