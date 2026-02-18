@@ -1,8 +1,4 @@
-# 🍳 Recipe of the Day
-
-A full-stack web application for discovering, sharing, and managing recipes. Built with PHP, MySQL, and modern web technologies.
-
-## ✨ Features
+## 🍳 Recipe of the Day
 
 ### User Features
 - **Browse Recipes**: Explore a wide collection of recipes with filtering and search
@@ -171,7 +167,7 @@ recipe_of_the_day/
 
 **CMPE 487 - Web Programming Project**
 
-- **Kamburoğlu, Toprak** - Full Stack Development
+- **Kamburoğlu, Toprak** - Group Project
 - **Course**: CMPE 487 - Web Programming
 - **Institution**: [Kadir Has University]
 - **Semester**: Spring 2025
@@ -185,6 +181,6 @@ This project is developed as part of CMPE 487 course requirements.
 ## 📞 Contact
 
 For questions or feedback, please reach out:
-- Email: your.email@example.com
+- Email: toprakkamburoglu@gmail.com
 - GitHub: [@ToprakKamburoglu](https://github.com/ToprakKamburoglu)
 
