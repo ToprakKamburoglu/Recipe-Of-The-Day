@@ -2,19 +2,6 @@
 
 A full-stack web application for discovering, sharing, and managing recipes. Built with PHP, MySQL, and modern web technologies.
 
----
-
-## 📋 Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Database Structure](#database-structure)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Team](#team)
-
----
-
 ## ✨ Features
 
 ### User Features
@@ -30,6 +17,14 @@ A full-stack web application for discovering, sharing, and managing recipes. Bui
 - **Category Management**: Organize recipes into categories
 - **User Management**: Manage user accounts and roles
 - **Content Moderation**: Review and manage comments
+
+### Super Admin Features
+- **Dashboard**: Overview with statistics and recent activities
+- **Recipe Management**: Full CRUD operations for recipes
+- **Category Management**: Organize recipes into categories
+- **User Management**: Manage user accounts and roles
+- **Content Moderation**: Review and manage comments
+- **Edit User**: Change users' password
 
 ---
 
@@ -63,9 +58,6 @@ The application uses 6 main tables:
 - **favorites**: User's saved recipes
 - **comments**: User reviews and ratings
 - **daily_recipe**: Featured recipe of the day
-
-### Entity Relationship Diagram
-![Database Schema](screenshots/database-schema.png)
 
 ---
 
@@ -137,7 +129,6 @@ recipe_of_the_day/
 │   └── my_cookbook.php    # Personal recipe collection
 ├── uploads/               # Uploaded files
 │   └── recipes/           # Recipe images
-└── logs/                  # Application logs
 ```
 
 ---
@@ -145,28 +136,34 @@ recipe_of_the_day/
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/1.png)
+![Homepage](screenshots/2.png)
 *Browse featured recipes and daily recommendations*
 
 ### Recipe Detail Page
-![Recipe Detail](screenshots/recipe-detail.png)
+![Recipe Detail](screenshots/3.png)
+![Recipe Detail](screenshots/4.png)
 *View complete recipe with ingredients, steps, and user reviews*
 
 ### Search & Filter
-![Search](screenshots/search-filter.png)
+![Search](screenshots/5.png)
 *Advanced filtering by category, difficulty, and ingredients*
 
 ### My Cookbook
-![Cookbook](screenshots/my-cookbook.png)
+![Cookbook](screenshots/8.png)
 *Personal collection of favorite recipes*
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](screenshots/9.png)
 *Comprehensive admin panel with statistics and management tools*
 
 ### Recipe Management
-![Recipe Management](screenshots/admin-recipes.png)
+![Recipe Management](screenshots/12.png)
 *Create, edit, and delete recipes with image upload*
+
+### Super Admin
+![Recipe Management](screenshots/12.png)
+*Edit user password with only difference with admin*
 
 ---
 
@@ -176,7 +173,7 @@ recipe_of_the_day/
 
 - **Kamburoğlu, Toprak** - Full Stack Development
 - **Course**: CMPE 487 - Web Programming
-- **Institution**: [Your University Name]
+- **Institution**: [Kadir Has University]
 - **Semester**: Spring 2025
 
 ---
@@ -189,11 +186,5 @@ This project is developed as part of CMPE 487 course requirements.
 
 For questions or feedback, please reach out:
 - Email: your.email@example.com
-- GitHub: [@yourusername](github-profile-link)
+- GitHub: [@ToprakKamburoglu](https://github.com/ToprakKamburoglu)
 
----
-
-**Made with ❤️ for CMPE 487 - Web Programming**
-```
-
----
