@@ -1,0 +1,197 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f8f8;
+}
+
+:root {
+    --main-bg-color: #79a206;
+    --main-text-color: #79a206;
+    --second-text-color: #999;
+    --second-bg-color: #f9fdf5;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: stretch;
+    overflow-x: hidden;
+}
+
+.sidebar-wrapper {
+    min-height: 100vh;
+    width: 15rem;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+    background-color: #ffffff;
+    border-right: 1px solid #eee;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-heading {
+    padding: 1.5rem 1.25rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.list-group-item {
+    border: none;
+    padding: 15px 30px;
+    color: #555;
+    font-weight: 600;
+}
+
+.list-group-item:hover {
+    background-color: #f9fdf5;
+    color: var(--main-text-color);
+}
+
+.list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border-right: 4px solid var(--main-text-color);
+}
+
+#page-content-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #eee;
+}
+
+#wrapper.toggled .sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    .sidebar-wrapper {
+        margin-left: 0;
+    }
+    #wrapper.toggled .sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+a.btn.btn-primary.shadow-sm,
+.btn.btn-primary.shadow-sm {
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--main-bg-color) !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+a.btn.btn-primary.shadow-sm:hover,
+.btn.btn-primary.shadow-sm:hover {
+    background-color: #5e7f04 !important;
+    border-color: #5e7f04 !important;
+}
+
+.btn.btn-sm.btn-outline-primary {
+    color: #2a6496 !important;
+    border-color: #2a6496 !important;
+    background-color: transparent !important;
+}
+
+.btn.btn-sm.btn-outline-primary:hover {
+    background-color: #2a6496 !important;
+    border-color: #2a6496 !important;
+    color: #ffffff !important;
+}
+
+.btn.btn-sm.btn-outline-danger {
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    background-color: transparent !important;
+}
+
+.btn.btn-sm.btn-outline-danger:hover {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: #ffffff !important;
+}
+
+thead th a .fa-sort-up,
+thead th a .fa-sort-down {
+    color: var(--main-text-color) !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--main-bg-color) !important;
+    color: #ffffff !important;
+}
+
+.pagination .page-link {
+    color: var(--main-text-color) !important;
+    font-weight: 600;
+}
+
+.pagination .page-link:hover {
+    color: #ffffff !important;
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--main-bg-color) !important;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #aaa !important;
+    background-color: #ffffff !important;
+    border-color: #eee !important;
+}
+
+.btn-primary.shadow-sm i.fa-plus {
+    color: #ffffff !important;
+}
+
+@media (max-width: 767px) {
+    td.text-end.pe-3 {
+        white-space: nowrap;
+    }
+    
+    .btn.btn-sm {
+        margin-bottom: 0 !important;
+        display: inline-block !important;
+    }
+}
+
+td.text-end.pe-3 .btn.btn-sm {
+    margin-right: 0.25rem;
+}
+
+td.text-end.pe-3 .btn.btn-sm:last-child {
+    margin-right: 0;
+}
+
+.primary-text {
+    color: var(--main-text-color);
+}
+
+.second-text {
+    color: var(--second-text-color);
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+.secondary-bg {
+    background-color: var(--second-bg-color);
+}

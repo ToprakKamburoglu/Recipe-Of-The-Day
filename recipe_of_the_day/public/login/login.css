@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #79a206, #5e7f04);
+    color: #333;
+}
+
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 480px;
+    padding: 22px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 15px 45px rgba(0,0,0,0.25);
+    position: relative;
+}
+
+.login-card {
+    background: #ffffff;
+    padding: 40px 35px;
+    border-radius: 16px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+.logo-text {
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    letter-spacing: 0.5px;
+    color: #444;
+}
+
+.logo-text span {
+    color: #79a206;
+}
+
+.login-card .text-muted {
+    font-size: 15px;
+}
+
+.form-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+.form-control:focus {
+    border-color: #79a206;
+    box-shadow: 0 0 0 0.2rem rgba(121,162,6,0.25);
+}
+
+.input-group .btn {
+    border-radius: 0 8px 8px 0;
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: #555;
+}
+
+.form-check-input:checked {
+    background-color: #79a206;
+    border-color: #79a206;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #79a206, #5e7f04);
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(121,162,6,0.45);
+}
+
+a.text-success {
+    color: #79a206 !important;
+    font-weight: 600;
+}
+
+a.text-success:hover {
+    text-decoration: underline;
+}
+
+.spinner-overlay {
+    display: none;
+    position: absolute;
+    inset: 22px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 16px;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+
+    body {
+        background: linear-gradient(180deg, #79a206, #5e7f04);
+    }
+
+    .login-wrapper {
+        align-items: flex-start; 
+        padding-top: 70px;    
+        padding-bottom: 40px;
+    }
+
+    .login-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .login-card {
+        padding: 35px 25px;
+        min-height: auto;
+        border-radius: 22px;
+    }
+
+    .logo-text {
+        font-size: 30px;
+    }
+
+    .form-control {
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+
+    .btn-success {
+        font-size: 16px;
+        padding: 14px;
+    }
+}
