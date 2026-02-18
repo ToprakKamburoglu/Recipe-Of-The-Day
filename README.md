@@ -165,7 +165,7 @@ recipe_of_the_day/
 
 ## 👥 Team
 
-**CMPE 487 - Web Programming Project**
+**CMPE 487 - Internet Programming Project**
 
 - **Kamburoğlu, Toprak** - Group Project
 - **Course**: CMPE 487 - Web Programming
