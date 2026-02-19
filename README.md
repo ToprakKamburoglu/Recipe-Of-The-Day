@@ -182,5 +182,5 @@ This project is developed as part of CMPE 487 course requirements.
 
 For questions or feedback, please reach out:
 - Email: toprakkamburoglu@gmail.com
-- GitHub: [@ToprakKamburoglu](https://github.com/ToprakKamburoglu)
+- GitHub: [ToprakKamburoglu](https://github.com/ToprakKamburoglu)
 
