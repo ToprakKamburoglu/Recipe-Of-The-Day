@@ -169,7 +169,7 @@ recipe_of_the_day/
 
 - **Kamburoğlu, Toprak** - Group Project
 - **Course**: CMPE 487 - Web Programming
-- **Institution**: [Kadir Has University]
+- **Institution**: Kadir Has University
 - **Semester**: Spring 2025
 
 ---
